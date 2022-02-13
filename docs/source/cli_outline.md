@@ -29,14 +29,15 @@ yojenkins
     |
     |
     |-- build       Manage builds
-    |     |--- abort    Abort build
-    |     |--- browser  Open build in web browser
-    |     |--- delete   Delete build
-    |     |--- info     Build information
-    |     |--- logs     Get build logs
-    |     |--- monitor  Start monitor UI
-    |     |--- stages   Get build stages
-    |     |--- status   Build status text/label
+    |     |--- abort       Abort build
+    |     |--- browser     Open build in web browser
+    |     |--- delete      Delete build
+    |     |--- info        Build information
+    |     |--- logs        Get build logs
+    |     |--- monitor     Start monitor UI
+    |     |--- parameters  Get build parameters
+    |     |--- stages      Get build stages
+    |     |--- status      Build status text/label
     |
     |
     |-- credential  Manage credentials
@@ -78,6 +79,7 @@ yojenkins
     |     |--- list          List all builds for job
     |     |--- monitor       Start monitor UI
     |     |--- next          Get next build number
+    |     |--- parameters    Get job build parameters
     |     |--- queue-cancel  Cancel this job in queue
     |     |--- queue-check   Check if this job is in queue
     |     |--- rename        Rename job
