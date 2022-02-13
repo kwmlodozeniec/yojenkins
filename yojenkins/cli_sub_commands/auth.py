@@ -15,7 +15,11 @@ from yojenkins.cli.cli_utility import set_debug_log_level
 @cli_decorators.debug
 @click.option('--token', type=str, required=False, is_flag=False, help='Authentication token used for setup profile')
 def configure(debug, token):
-    """Configure authentication"""
+    """Configure authentication
+    
+    Configuring a authentication profile will add that profile to the yojenkins
+    credentials file.
+    """
     set_debug_log_level(debug)
     cli_auth.configure(token)
 
@@ -24,7 +28,11 @@ def configure(debug, token):
 @cli_decorators.debug
 @cli_decorators.profile
 def token(debug, profile):
-    """Generate authentication API token"""
+    """Generate authentication API token
+    
+    Specifying --profile will add the generated API token to the specified
+    profile in the credentials file.
+    """
     set_debug_log_level(debug)
     cli_auth.token(profile)
 

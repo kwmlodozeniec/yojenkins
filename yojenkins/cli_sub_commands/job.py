@@ -244,6 +244,9 @@ def monitor(debug, profile, job, sound):
               is_flag=True,
               help='The specified file is in JSON format')
 def create(debug, profile, name, folder, config_file, config_is_json):
-    """Create a job"""
+    """Create a job
+    
+    If no --config-file is specified, the created job will be empty.
+    """
     set_debug_log_level(debug)
     cli_job.create(profile, name, folder, config_file, config_is_json)
