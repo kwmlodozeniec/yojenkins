@@ -1,30 +1,36 @@
-<p align="center"><img width="120
-" alt="portfolio_view" src="https://raw.githubusercontent.com/ismet55555/yojenkins/main/docs/source/logo_final.png"></p>
+<p align="center">
+  <a href="https://www.yojenkins.com/">
+    <img width="120" alt="logo" src="https://raw.githubusercontent.com/ismet55555/yojenkins/main/docs/source/logo_final.png">
+  </a>
+</p>
 
 <h1 align="center">yojenkins</h1>
 
-
 <p align="center">
 
-<a href="https://pypi.org/project/yojenkins/">
-  <img alt="PYPI Version" src="https://img.shields.io/pypi/v/yojenkins?color=blue">
-</a>
+  <a href="https://www.yojenkins.com/">
+    <img alt="Docs" src="https://img.shields.io/badge/-docs-blue">
+  </a>
 
-<a href="https://pypi.org/project/yojenkins/">
-  <img alt="Python Versions" src="https://img.shields.io/pypi/pyversions/yojenkins">
-</a>
+  <a href="https://pypi.org/project/yojenkins/">
+    <img alt="PYPI Version" src="https://img.shields.io/pypi/v/yojenkins?color=blue">
+  </a>
 
-<a href="https://pypi.org/project/yojenkins/">
-  <img alt="PYPI Status" src="https://img.shields.io/pypi/status/yojenkins">
-</a>
+  <a href="https://pypi.org/project/yojenkins/">
+    <img alt="Python Versions" src="https://img.shields.io/pypi/pyversions/yojenkins">
+  </a>
 
-<a href="https://github.com/ismet55555/yojenkins/blob/main/LICENSE">
-  <img alt="Licence" src="https://img.shields.io/pypi/l/yojenkins">
-</a>
+  <a href="https://pypi.org/project/yojenkins/">
+    <img alt="PYPI Status" src="https://img.shields.io/pypi/status/yojenkins">
+  </a>
 
-<a href="https://github.com/ismet55555/yojenkins/actions/workflows/test-build-publish.yml">
-  <img alt="Workflow" src="https://github.com/ismet55555/yojenkins/actions/workflows/test-build-publish.yml/badge.svg">
-</a>
+  <!-- <a href="https://github.com/ismet55555/yojenkins/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/pypi/l/yojenkins">
+  </a> -->
+
+  <a href="https://github.com/ismet55555/yojenkins/actions/workflows/test-build-publish.yml">
+    <img alt="GitHub Workflow" src="https://github.com/ismet55555/yojenkins/actions/workflows/test-build-publish.yml/badge.svg">
+  </a>
 
 </p>
 
@@ -68,3 +74,8 @@ This is a very young project and I am always looking for help in any way. If you
 
   - For financial or marketing support options see [Support This Project!](https://www.yojenkins.com/support/).
   - To contribute to this project, see [Contribute to This Project!](https://www.yojenkins.com/contribute/).
+
+
+## License
+
+This project is licensed under the *GNU General Public License Version 3* - Please see the [LICENSE](LICENSE) file for details.
