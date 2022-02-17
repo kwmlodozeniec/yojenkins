@@ -11,6 +11,7 @@
 
 # NOTES
 
+> Drink water before hand
 > LESS UMMMMMMMs!!!
 > MORE MOUSE POINTING and highlighting
 > Clear the screen for clarity

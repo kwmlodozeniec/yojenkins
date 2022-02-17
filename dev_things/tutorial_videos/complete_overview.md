@@ -30,6 +30,7 @@
 
 ### Intro
 
+- Hello and welcome to an overview of `yojenkins` CLI
 - This video should show you what yojenkins is, and some basic functions
 - For more information, documentation, and examples go to `yojenkins.com`
 - What is yojenkins?
