@@ -21,11 +21,14 @@ Some fancy slide
 
 ## Script
 
-Intro
-    - This is an overview of `yojenkins` CLI tool
-    - Quick explanation and a quick demo at the end
+**Intro**
+    - This is a quick overview/intro video of the `yojenkins` CLI tool
+    - This is only a short explanation with a small demo at the end
+    - I won't be going into how to install or setup `yojenkins`
+    - If you want much more information, visit yojenkins.com
 
-1. What is yojenkins?
+
+1. **What is yojenkins?**
    - `yojenkins` is a CLI tool for interfacing with and managing Jenkins servers from the terminal
    - This tool can be used to make some Jenkins tasks more efficient
    - You can use it for anything from 
@@ -33,23 +36,29 @@ Intro
         - build monitoring
         - account administration
         - secondary node configuration
+        - ...and much much more
 
-2. Why `yojenkins`?
-   - Use it for convenience
-   - Because the Jenkins server UI can slow
-   - For automation and scripting
-   - Build monitoring
+2. **Some of the reasons to use `yojenkins` include**
+   - Convenience
+   - Jenkins server UI can slow
+   - Automation and scripting
+   - Love for the terminal!
 
-5. Quick demo
+5. **Quick demo**
+    - Jenkins server running locally inside a Docker container that was quickly set up with `yojenkins`
     - Show terminal and ui side by side
     - Menu navigation
     - There are definitely many more yojenkins commands to show you, however, this is a quick demo
+
+    - Show each command
+
     - A few sample commands
         - Create a folder - `yojenkins folder create`
         - Create a job - `yojenkins job create`
         - Start a job - `yojenkins job build`
         - Follow buld logs - `yojenkins build logs ..... --follow`
         - Monitor a build - `yojenkins build monitor .... --sound`
+        - Delete the folder - `yojenkins folder delete`
     - Show the menu
         - `yojenkins`
 
